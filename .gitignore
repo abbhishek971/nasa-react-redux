@@ -20,5 +20,11 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-#apiCongif.json
+# apiCongif.json
+# add your own apiConfig.json in the src/components/ directory
+# structure it in the following manner:
+# {
+#   "key" : "***************************" // your nasa api key here
+# }
+# also paste the same file in the src/actions directory
 /src/components/apiConfig.json
